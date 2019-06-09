@@ -10,6 +10,7 @@ SHAPE_SCALE = 0.02
 SHAPE_LW = 0.0015
 GEN_NUM = 2**7
 ITER_AMP, ITER_NOISE, ITER_NOISE_DECAY, ITER_ALPHA_DECAY= 1.02, 0.01, 2**7, 2**5
+np.random.seed(1244837539)
 
 surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
