@@ -2,7 +2,7 @@
 import numpy as np
 import cairo
 
-WIDTH, HEIGHT = 1024, 1024
+WIDTH, HEIGHT = 2**11, 2**11
 
 SHAPE_DIV = 2**8
 SHAPE_A, SHAPE_B, SHAPE_C = 7, 2, 7
